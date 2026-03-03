@@ -41,5 +41,5 @@ EOT
 
 resource "aws_amplify_branch" "main" {
   app_id      = aws_amplify_app.hola_mundo.id
-  branch_name = "master" 
+  branch_name = "main" 
 }
